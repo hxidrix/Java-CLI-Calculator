@@ -18,14 +18,20 @@ A simple command-line calculator written in Java. It performs basic arithmetic o
    ```bash
    git clone https://github.com/hxidrix/Java-CLI-Calculator.git
    cd Java-CLI-Calculator
+<<<<<<< HEAD
    ```
+=======
+>>>>>>> bfe4671042859fc0caf582e74ddfdc70923cc1ad
    
 4. Compile and run:
 
    ```bash
    javac src/*.java
    java -cp src Calculator
+<<<<<<< HEAD
    ```
+=======
+>>>>>>> bfe4671042859fc0caf582e74ddfdc70923cc1ad
 
 ## 📸 Preview
 
