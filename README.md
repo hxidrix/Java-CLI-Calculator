@@ -1,6 +1,6 @@
 # Java CLI Calculator
 
-A simple command-line calculator written in Java. It performs basic arithmetic operations like addition, subtraction, multiplication, and division, with a continuous calculation feature based on previous results.
+A simple command-line calculator written in Java. It performs basic arithmetic operations like addition, subtraction, multiplication and division, with a continuous calculation feature based on previous results.
 
 ## 🛠 Features
 
