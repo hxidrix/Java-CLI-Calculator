@@ -1,18 +1,64 @@
-## Getting Started
+# Java CLI Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple command-line calculator written in Java. It performs basic arithmetic operations like addition, subtraction, multiplication, and division, with a continuous calculation feature based on previous results.
 
-## Folder Structure
+## 🛠 Features
 
-The workspace contains two folders by default, where:
+- Addition `+`
+- Subtraction `-`
+- Multiplication `*`
+- Division `/` with zero check
+- Continuous operations using previous result
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ❓ How to Run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Make sure you have Java installed.
+2. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/hxidrix/Java-CLI-Calculator.git
+   cd Java-CLI-Calculator
+   ```
+   
+4. Compile and run:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+   ```bash
+   javac src/*.java
+   java -cp src Calculator
+   ```
 
-## Dependency Management
+## 📸 Preview
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+   ```bash
+  Enter first value: 
+  10
+  Enter operation (+, -, *, /)
+  +
+  Enter next number to perform operation: 
+  5
+  Result of 10.0 + 5.0 is 15.0
+  continue? (y/n)
+  y
+  Previous result becomes first value: 15.0
+  Enter operation (+, -, *, /)
+  /
+  Enter next number to perform operation: 
+  3
+  Result of 15.0 / 3.0 is 5.0
+  continue? (y/n)
+  n
+  
+  --- Operation Result ---
+  15.0 / 3.0 = 5.0
+  ------------------------
+  ```
+
+## 📁 Project Structure
+
+```
+Java-CLI-Calculator/
+├── src/
+│   ├── Calculator.java
+│   └── CalcCore.java
+├── README.md
+```
